@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 import xarray as xr
-from matplotlib.backends.backend_pdf import PdfPages
 import requests
 from pathlib import Path
 import zipfile
@@ -22,20 +21,6 @@ def download_data():
     # Unzip
     with zipfile.ZipFile(path, 'r') as zip_ref:
         zip_ref.extractall(path.parent)
-
-
-def make_report(path_to_pdf):
-    """
-    Makes a pdf report. Example:
-    pdf = make_report() #Make pdf.
-    # plot something....
-    pdf.savefig() # Save new figures to it using:
-    pdf.close() # finalize
-
-    :param path_to_pdf:
-    :return: pdf object
-    """
-    return PdfPages(path_to_pdf + '/' + 'report.pdf')
 
 
 def load_spikes_from_phy(path_to_data='/Users/myroshnychenkm2/Downloads/dataset/', sampling_frequency=30000):
