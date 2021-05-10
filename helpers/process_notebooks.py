@@ -1,4 +1,4 @@
-"""Process tutorials for
+"""Process tutorials
 
 - Filter input file list for .ipynb files
 - Check that the cells have been executed sequentially on a fresh kernel
@@ -218,14 +218,16 @@ def extract_solutions(nb, nb_dir, nb_name):
             # Convert the solution cell to markdown,
             # Insert a link to the solution snippet script on github,
             # and embed the image as a link to static file (also on github)
-            py_url = f"{GITHUB_TREE_URL}/tutorials/{tutorial_dir}/{py_fname}"
+            # py_url = f"{GITHUB_TREE_URL}/tutorials/{tutorial_dir}/{py_fname}"
+            py_url = f"{GITHUB_TREE_URL}/{tutorial_dir}/{py_fname}"
             new_source = f"[*Click for solution*]({py_url})\n\n"
 
             if cell_images:
                 new_source += "*Example output:*\n\n"
                 for f, img in cell_images.items():
 
-                    url = f"{GITHUB_RAW_URL}/tutorials/{tutorial_dir}/{f}"
+                    # url = f"{GITHUB_RAW_URL}/tutorials/{tutorial_dir}/{f}"
+                    url = f"{GITHUB_RAW_URL}/{tutorial_dir}/{f}"
 
                     # Handle matplotlib retina mode
                     dpi_w, dpi_h = img.info["dpi"]
