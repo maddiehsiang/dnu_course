@@ -196,3 +196,9 @@ class PSTH:
                                      colors=([.5, .5, .5], [0, .6, 0]))
 
         return pop, mean_psth
+
+
+
+def prep_notebook():
+    from helpers import process_notebooks
+    process_notebooks.clean_notebook('spikes_tutorial.ipynb')
