@@ -1,4 +1,4 @@
-"""Process tutorials for Neuromatch Academy
+"""Process tutorials for
 
 - Filter input file list for .ipynb files
 - Check that the cells have been executed sequentially on a fresh kernel
@@ -31,10 +31,10 @@ from nbconvert.preprocessors import ExecutePreprocessor
 
 
 GITHUB_RAW_URL = (
-    "https://raw.githubusercontent.com/NeuromatchAcademy/course-content/master"
+    "https://raw.githubusercontent.com/mmyros/dnu_course/master"
 )
 GITHUB_TREE_URL = (
-    "https://github.com/NeuromatchAcademy/course-content/tree/master/"
+    "https://github.com/mmyros/dnu_course/tree/master/"
 )
 
 
@@ -345,7 +345,7 @@ def has_colab_badge(cell):
 def redirect_colab_badge_to_master_branch(cell):
     """Modify the Colab badge to point at the master branch on Github."""
     cell_text = cell["source"]
-    p = re.compile(r"^(.+/NeuromatchAcademy/course-content/blob/)\w+(/.+$)")
+    p = re.compile(r"^(.+/mmyros/dnu_course/blob/)\w+(/.+$)")
     cell["source"] = p.sub(r"\1master\2", cell_text)
 
 
@@ -394,7 +394,7 @@ def exit(errors):
 def parse_args(arglist):
     """Handle the command-line arguments."""
     parser = argparse.ArgumentParser(
-        description="Process neuromatch tutorial notebooks",
+        description="Process tutorial notebooks",
     )
     parser.add_argument(
         "files",
