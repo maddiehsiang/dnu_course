@@ -6,6 +6,22 @@ import pandas as pd
 from tqdm import tqdm
 import xarray as xr
 from matplotlib.backends.backend_pdf import PdfPages
+import requests
+from pathlib import Path
+import zipfile
+
+
+def download_data():
+    # Get link:
+    r = requests.get('http://data.cortexlab.net/singlePhase3/data/dataset.zip')
+    path = Path('data/dataset.zip')
+    path.parent.mkdir(exist_ok=True)
+    with open(path, "wb") as fid:
+        # Write out content of link:
+        fid.write(r.content)
+    # Unzip
+    with zipfile.ZipFile(path, 'r') as zip_ref:
+        zip_ref.extractall(path.parent)
 
 
 def make_report(path_to_pdf):
