@@ -3,6 +3,9 @@ Section on spike data analysis
 
 Maxym "Dr Max" Myroshnychenko
 
+.. image:: https://github.com/mmyros/dnu_course/actions/workflows/pytest.yaml/badge.svg
+        :target: https://github.com/mmyros/dnu_course/actions/workflows/pytest.yaml/badge.svg
+
 ------
 ## Day 1: Intro to Python
 ### Default path: A gentle intro to Python
