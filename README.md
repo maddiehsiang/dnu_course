@@ -1,7 +1,7 @@
 # Dynamical Neuroscience in Ukraine
 ## Spike data analysis
   
-## Day 1: Easy Python
+## Day 1: A gentle intro to Python
 Start here if you have never used Python
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.ipynb)
