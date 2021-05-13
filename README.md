@@ -1,22 +1,23 @@
+![](https://github.com/mmyros/dnu_course/actions/workflows/pytest.yaml/badge.svg)
+
 # Dynamical Neuroscience in Ukraine
 Section on spike data analysis
 
 Maxym "Dr Max" Myroshnychenko
 
-![](https://github.com/mmyros/dnu_course/actions/workflows/pytest.yaml/badge.svg)
-
 
 ------
 ## Day 1: Intro to Python
-### Default path: A gentle intro to Python
+[Day 1 Slides](https://github.com/mmyros/dnu_course/blob/master/slides/ukraine_slides.ipynb)
+### Default tutorial: A gentle intro to Python
 Start here if you have never used Python
 
 For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmyros/dnu_course/blob/master/tutorials/D1_Python_Lite/student/W0D1_Tutorial1_Lite.ipynb)
 Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmyros/dnu_course/blob/master/tutorials/D1_Python_Lite/W0D1_Tutorial1_Lite.ipynb)
 
-### Alternative path: Fun Python
+### Alternative tutorial: Fun Python
 Start here if you have had a semester's worth of any programming language before.
-Build a LIF neuron. Only a little more challenging
+Only a little more challenging
 
 For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.ipynb) 
 Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W0D1_PythonWorkshop1/W0D1_Tutorial1.ipynb) 
