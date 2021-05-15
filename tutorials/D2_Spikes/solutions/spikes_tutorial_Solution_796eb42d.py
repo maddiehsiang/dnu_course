@@ -1,0 +1,1 @@
+sum(isis)/len(isis)
