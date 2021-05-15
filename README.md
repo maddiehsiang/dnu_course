@@ -27,4 +27,4 @@ For students [![Open In Colab](https://colab.research.google.com/assets/colab-ba
 Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmyros/dnu_course/blob/master/tutorials/D2_Spikes/spikes_tutorial.ipynb)
 
 # Day 2 extra credit
-For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmyros/dnu_course/blob/master/tutorials/D2_Spikes/spikes_tutorial.ipynb) 
+For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mmyros/dnu_course/blob/master/tutorials/D2_Spikes/spikes_extra_credit.ipynb) 
