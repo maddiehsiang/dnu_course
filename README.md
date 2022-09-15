@@ -19,8 +19,8 @@ Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge
 Start here if you have had a semester's worth of any programming language before.
 Only a little more challenging
 
-For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.ipynb) 
-Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/course-content/blob/master/tutorials/W0D1_PythonWorkshop1/W0D1_Tutorial1.ipynb) 
+For students [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/precourse/blob/main/tutorials/W0D1_PythonWorkshop1/instructor/W0D1_Tutorial1.ipynb) 
+Solutions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuromatchAcademy/precourse/blob/main/tutorials/W0D1_PythonWorkshop1/instructor/W0D1_Tutorial1.ipynb) 
 
 ## Day 2: Real data with Python
 [Day 2 Slides](https://github.com/mmyros/dnu_course/blob/master/slides/ukraine_slides_2.ipynb)
